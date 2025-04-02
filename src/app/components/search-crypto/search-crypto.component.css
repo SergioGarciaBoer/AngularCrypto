@@ -1,0 +1,24 @@
+div.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.search input{
+    width: 80%;
+    padding: 30px auto;
+    margin: 20px auto;
+}
+
+div.search button{
+    margin-right: 30px;
+    border: none;
+    background-color: rgb(36, 36, 36);
+    padding: 30px auto;
+    color: white;
+    border-radius: 6px;
+}
+
+div.search button:hover{
+    background-color: rgb(87, 87, 87);
+}

@@ -1,0 +1,9 @@
+<app-search-crypto></app-search-crypto>
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @for (item of AllCryptoPrice; track $index) {
+            <app-crypto-price-card [cryptoPrice]="item"></app-crypto-price-card>
+        }
+    </div>
+</div>
